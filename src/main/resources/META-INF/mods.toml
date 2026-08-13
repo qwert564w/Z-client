@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="zclient"
+version="1.0.0"
+displayName="Z Client"
+authors="qwert564w"
+description='''
+Z Client - мод с функцией Aim Assist и другими полезными возможностями для Minecraft 1.20.1 Forge.
+'''
+logoFile="icon.png"
+
+[[dependencies.zclient]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.3.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.zclient]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
